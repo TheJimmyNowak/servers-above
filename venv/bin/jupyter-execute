@@ -1,4 +1,4 @@
-#!/home/jimmy/Documents/serversabove/test/venv/bin/python3
+#!/home/jimmy/PycharmProjects/servers-above/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys

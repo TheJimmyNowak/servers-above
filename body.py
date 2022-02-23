@@ -25,6 +25,9 @@ class Body:
     def __str__(self):
         return self.name
 
+    def __lt__(self, other):
+        return self.orbit_radius < other.orbit_radius
+
     @property
     def inclination(self):
         return math.degrees(self._inclination)

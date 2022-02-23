@@ -1,10 +1,11 @@
 # Servers-above
 ___
-Servers Above is a proof of concept simulation for one of my crazy ideas to put server on orbit.
+__Servers Above__ is a proof of concept simulation for one of my crazy ideas to put server on orbit.
 
 - [x] Stage 1 - orbit simulation (circular)
 
-    ![Animation](simulation.gif)
+    ![Animation2D](simulations/simulation2D.gif)
+    ![Animation3D](simulations/simulation3D.gif)
 - [ ] Stage 2 - communication simulation
 - [ ] Stage 3 - conclusions
 

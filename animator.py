@@ -42,8 +42,8 @@ class Animator:
 
         for i, body in enumerate(self.bodies):
             body_positions = bodies_positions[i * 3:(i + 1) * 3, :]
-            plt.plot(body_positions[0], body_positions[1],
-                     body_positions[2], '.', label=str(body))
+            x, y, z = body_positions
+            plt.plot(z, x, y, label=str(body))
             plt.legend()
 
     def animate(self, interval=10, frames=100, filename='simulation.gif') -> None:
